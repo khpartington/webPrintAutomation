@@ -81,8 +81,8 @@ pyautogui.write(filename)
 pyautogui.press('enter')
 
 # Click Button - "Upload & Complete"
-# search_button = driver.find_element(By.ID, "upload")
-# search_button.click()
+search_button = driver.find_element(By.ID, "upload")
+search_button.click()
 
 # Wait to see the results
 time.sleep(3)
